@@ -7,6 +7,6 @@ WORKDIR /opt/Chatuygulaması/client
 RUN npm install
 WORKDIR /opt/Chatuygulaması
 
-CMD ["npm start", "/server","-p" , "9000"]
+CMD ["npm start", "/server"]
 
 EXPOSE 3000
